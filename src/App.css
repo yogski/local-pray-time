@@ -1,38 +1,44 @@
-.App {
+html body {
+  font-family: 'Maven Pro';
+}
+
+.app-bkg {
+  background-color: var(--surface-b);
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-color);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%);
+  background-size: 4px 4px, 3px 3px, 5px 5px, 3px 3px, 6px 6px, 4px 4px, 5px 5px, 4px 4px, 6px 6px, 3px 3px, 5px 5px, 4px 4px, 3px 3px, 6px 6px, 5px 5px, 4px 4px, 5px 5px, 6px 6px;
+  background-position: 20% 10%, 5% 20%, 10% 75%, 22% 35%, 30% 30%, 40% 50%, 45% 20%, 65% 20%, 85% 30%, 98% 90%, 20% 80%, 50% 80%, 75% 80%, 89% 75%, 90% 95%, 60% 70%, 65% 40%, 90% 20%;
+  background-repeat: no-repeat;
+  animation: twinkle ease-in 0.3s infinite;
 }
 
-.App-link {
-  color: #61dafb;
+.highlight-next-pray {
+  color : magenta;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.highlight-current-pray {
+  border-left: 0.6rem solid var(--primary-color);
+  background-color: rgba(48, 69, 98, 0.65);
+  font-weight: bold;
+}
+
+.display-title {
+  font-size: 1.5rem;
+}
+
+.display-value {
+  font-size: 2.2rem;
+  color: var(--primary-color);
+}
+
+.header-menu {
+  text-align: left;
+}
+
+@keyframes twinkle {
   to {
-    transform: rotate(360deg);
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, rgba(255, 255, 255, 0.7) 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%), radial-gradient(circle, #e9e9e9 20%, transparent 30%);
   }
 }
