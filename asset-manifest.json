@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/pray-time/static/css/main.9e1bf7fd.chunk.css",
+    "main.js": "/pray-time/static/js/main.99ad05bb.chunk.js",
+    "main.js.map": "/pray-time/static/js/main.99ad05bb.chunk.js.map",
+    "runtime-main.js": "/pray-time/static/js/runtime-main.7d632c5c.js",
+    "runtime-main.js.map": "/pray-time/static/js/runtime-main.7d632c5c.js.map",
+    "static/css/2.c71f206f.chunk.css": "/pray-time/static/css/2.c71f206f.chunk.css",
+    "static/js/2.65058ff4.chunk.js": "/pray-time/static/js/2.65058ff4.chunk.js",
+    "static/js/2.65058ff4.chunk.js.map": "/pray-time/static/js/2.65058ff4.chunk.js.map",
+    "static/js/3.450fb7b4.chunk.js": "/pray-time/static/js/3.450fb7b4.chunk.js",
+    "static/js/3.450fb7b4.chunk.js.map": "/pray-time/static/js/3.450fb7b4.chunk.js.map",
+    "index.html": "/pray-time/index.html",
+    "static/css/2.c71f206f.chunk.css.map": "/pray-time/static/css/2.c71f206f.chunk.css.map",
+    "static/css/main.9e1bf7fd.chunk.css.map": "/pray-time/static/css/main.9e1bf7fd.chunk.css.map",
+    "static/js/2.65058ff4.chunk.js.LICENSE.txt": "/pray-time/static/js/2.65058ff4.chunk.js.LICENSE.txt",
+    "static/media/primereact.min.css": "/pray-time/static/media/color.6441e63a.png",
+    "static/media/primeicons.css": "/pray-time/static/media/primeicons.e78e6d8e.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d632c5c.js",
+    "static/css/2.c71f206f.chunk.css",
+    "static/js/2.65058ff4.chunk.js",
+    "static/css/main.9e1bf7fd.chunk.css",
+    "static/js/main.99ad05bb.chunk.js"
+  ]
+}
